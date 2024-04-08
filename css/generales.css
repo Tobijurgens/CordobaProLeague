@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins';
+}
+
+header{
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    top: 0;
+    z-index: 1000;
+}
+
+.contenedorLogo{
+    text-align: center;
+    background-image: url(../assets/header3.jpg);
+    background-position: center;
+    background-size: cover;
+    outline: 5px solid blue;
+}
+
+.logoHeader{
+    margin-top: 0.5vh;
+    max-height: 9vh;
+    max-width: 100%;
+}
+
+.seccionNavHeader{
+    position: fixed;
+    top: 10vh;
+    z-index: 1000;
+    background-color: #e8e2c8;
+    height: 6vh;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+.barraNav{
+    text-align: center;
+    height: 6vh;
+}
+
+.opciones{
+    display: inline-block;
+    line-height: 6vh;
+    margin: 0 1vw;
+}
+
+.navegar{
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    padding: 1vw 2vh;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.paginaActual{
+    color: #d02c2c;
+    text-decoration: overline;
+    text-decoration-thickness: 0.2em;
+}
+
+.navegar:hover{
+    color: #858585;
+    transition: 0.5s;
+}
+
+.menuBoton{
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    float: right;
+    line-height: 6vh;
+    margin-right: 3vw;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+} 
+
+@media (max-width: 650px){
+    .menuBoton{
+        display: block;
+        font-size: 3vh;
+    }
+
+    .barraNav{
+        position: fixed;
+        top: 16vh;
+        left: -100%;
+        width: 100%;
+        height: 90vh;
+        overflow: hidden;
+        background: #E8E2C8;
+        text-align: center;
+        transition: all 1s;        
+    }
+
+    .opciones{
+        display: block;
+        line-height: 16vh;
+    }
+
+    .navegar{
+        font-size: 130%;    
+    }
+
+    .paginaActual, .navegar:hover{
+        background: none;
+        color: rgb(0, 0, 0);
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+
+main{
+    background-image: url('../assets/fondo2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 16vh;
+    min-height: 84vh;
+}
+
+h1{
+    padding-top: 30px;
+    text-align: center;
+    text-shadow: 0px 2px 0px rgb(211, 12, 12);
+
+    margin: 20px;
+    font-size: 2em;
+}
+
+footer{
+    height: 15vh;
+    background-color: black;
+}

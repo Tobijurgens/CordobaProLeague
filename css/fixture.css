@@ -1,0 +1,95 @@
+.contenedorSelector{
+    display: flex;
+    justify-content: center;
+}
+
+#selectorFecha{
+    width: 90vw;
+    max-width: 1000px;
+    height: 40px;
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+
+}
+.contenedorPartidos{
+    margin: 10px;
+    padding: 2%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    text-align: center;
+}
+h3{
+    margin-top: 30px;
+}
+.partidos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.partido{
+    background-color: rgba(168, 168, 168, 0.041);
+    box-shadow: 0px 4px 10px black;
+    text-align: center;
+    width: 90vw;
+    max-width: 1000px;
+    margin: 15px;
+    padding: 20px;
+}
+
+.partido:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.datosPartido{
+    color: rgb(75, 75, 75);
+    font-size: 0.75em;
+}
+.infoPartido{
+    display: flex;
+    justify-content: center;
+    
+}
+.equipo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 140px;
+    font-weight: bold;
+    font-size: 0.6em;
+}
+
+.contenedorEscudo{
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+.escudoEquipo{
+    width: 5em;
+    margin: 5px;
+}
+.nombreEquipo{
+    height: 40%;
+}
+
+.resultado{
+    color: green;
+    font-size: 2em;
+    margin: 15px;
+}
+.separadorEquipos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+footer{
+    height: 15vh;
+    background-color: black;
+}

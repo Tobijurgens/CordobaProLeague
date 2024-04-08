@@ -1,0 +1,106 @@
+.tablas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+section{
+    margin: 5vh 0;
+    width: 96vw;
+}
+
+.contenedorTabla{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+table{
+    width: 100%;
+    max-width: 1000px;
+    margin: 10px;
+    box-shadow: 0 1vh 1vw rgba(0, 0, 0, 0.3);
+}
+
+table thead{
+    background-color: rgb(189, 20, 20);
+}
+
+table thead tr th{
+    background-color: #b42525;
+    padding: 0px 3px;
+}
+
+table tr:nth-child(odd){
+    background-color: #ebe9de;
+}
+table tr:nth-child(even){
+    background-color: white;
+}
+
+.nombreEquipo{
+    text-align: left;
+    padding: 0 10px;
+    min-width: 140px;
+}
+
+@media (max-width: 550px) {
+    table{
+        font-size: 10px;
+    }
+}
+    
+@media (max-width: 350px) {
+    main{
+        font-size: 10px;
+    }
+    table{
+        font-size: 8px;
+    }
+    .nombreEquipo{
+        min-width: 110px;
+    }
+}
+/* .tablas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    margin: 5vh 0;
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table{
+    margin: 10px;
+}
+
+table thead tr th{
+    background-color: #b42525;
+    padding: 3px 10px;
+}
+
+table tr:nth-child(odd){
+    background-color: #ebe9de;
+}
+
+table tr{
+    height: 40px;
+}
+
+table{
+    box-shadow: 0 1vh 1vw rgba(0, 0, 0, 0.3);
+}
+
+.nombreEquipo{
+    padding: 0 10px;
+    min-width: 140px;
+}
+.columnas, .columnaPuntos{
+    width: 30px;
+    text-align: center;
+} */

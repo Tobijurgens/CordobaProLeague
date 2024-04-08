@@ -1,0 +1,73 @@
+main{
+    margin-top: 16vh;
+    background: #E8E2C8;
+}
+footer{
+    margin: 0;
+}
+.imagenPrincipal{
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.seccionArticulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 20px 5vw;
+    margin-bottom: 55px;
+}
+
+.contenedorArticulos{
+    margin: 2% 1%;
+    flex: 1 1 250px;
+    max-width: 400px;
+    aspect-ratio: 5/4;
+}
+
+.enlace{
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    box-shadow: 2px 2px 8px  rgba(0, 0, 0, 0.534);
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 200%;
+    transition: 0.5s;
+}
+
+.enlace:hover{
+    filter: brightness(0.6);
+    transform: scale(1.1);
+    box-shadow: -6px 6px 4px #000000da;
+}
+
+.enlace h2{
+    font-size: 100%;
+}
+
+.enlaceBotines{
+    background-image: url(../assets/botines.jpg);
+}
+
+.enlaceGuantes{
+    background-image: url(../assets/enlace3.jpg);
+}
+
+.enlaceIndumentaria{
+    background-image: url(../assets/enlace2.jpg);
+}
+
+.enlaceAccesorios{
+    background-image: url(../assets/accesorios.webp);
+}

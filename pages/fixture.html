@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Córdoba Pro</title>
+    <link rel="icon" href="../assets/logo.png" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="../css/generales.css">
+    <link rel="stylesheet" href="../css/fixture.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="contenedorLogo">
+            <a href="../index.html" class="enlaceLogo">
+                <img src="../assets/logo.png" alt="Logo Córdoba Juega" class="logoHeader">
+            </a>
+        </div>
+    </header>
+    <nav class="seccionNavHeader">
+        <input type="checkbox" id="check">
+        <label for="check" class="menuBoton">☰</label>
+        <ul class="barraNav">
+            <!-- <li class="opciones"><a href="./contacto.html" class="navegar">Contacto</a></li> -->
+            <li class="opciones"><a href="./posiciones.html" class="navegar">Posiciones</a></li>
+            <li class="opciones"><a href="../index.html" class="navegar">Inicio</a></li>
+            <li class="opciones"><a href="./fixture.html" class="navegar paginaActual">Fixture</a></li>
+            <!-- <li class="opciones"><a href="./estadisticas.html" class="navegar">Estadisticas</a></li> -->
+        </ul>
+    </nav>
+    <main>
+        <h1>FIXTURE: </h1>
+        <div class="contenedorSelector">
+            <select name="selectorFecha" id="selectorFecha">
+                <option value="fecha1">Fecha N°1</option>
+                <option value="fecha2">Fecha N°2</option>
+                <option value="fecha3">Fecha N°3</option>
+                <option value="fecha4">Fecha N°4</option>
+                <option value="fecha5">Fecha N°5</option>
+                <option value="fecha6">Fecha N°6</option>
+                <option value="fecha7">Fecha N°7</option>
+            </select>
+        </div>
+        <div id="contenedorFechas">
+            <div class="contenedorPartidos" id="fecha1">
+                <h2>FECHA N°1</h2>
+                <div class="partidos">
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Hipólito Vieytes 550, Córdoba - Escuela de fútbol Universitario</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoUniversitario.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Universitario BLANCO</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoBoca.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Boca Juniors AZUL</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Av. Padre Antonio María Claret 5601, Córdoba - Escuela de fútbol Lasallano</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/98/aa/9d/98aa9dc82fac2d73df8df8f4a1140e00.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Lasallano AZUL</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoTalleres.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Talleres Botánico</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Las Gredas 2424, Córdoba - Complejo Don Adolfo</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/07/a4/6f/07a46fb0ade651e67e06e954cd46a6f6.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">G. P. Juniors</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoBoca.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Boca Juniors AMARILLO</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Hipólito Vieytes 550, Córdoba - Escuela de fútbol Universitario
+                        </p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoUniversitario.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Universitario ROJO</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/98/aa/9d/98aa9dc82fac2d73df8df8f4a1140e00.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Lasallano BLANCO</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="contenedorPartidos" id="fecha2">
+                <h2>FECHA N°2</h2>
+                <div class="partidos">
+                    <h3>MEGA "A"</h3>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Sol de Mayo 1242, X5000 Córdoba - Escuela de fútbol Boca de Córdoba</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoUniversitario.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Universitario BLANCO</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoBoca.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Boca Juniors AZUL</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Sol de Mayo 1242, X5000 Córdoba - Escuela de fútbol Boca de Córdoba</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/98/aa/9d/98aa9dc82fac2d73df8df8f4a1140e00.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Lasallano AZUL</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoTalleres.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Talleres Botánico</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="partidos">
+                    <h3>MEGA "B"</h3>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Las Gredas 2424, Córdoba - Complejo Don Adolfo</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/07/a4/6f/07a46fb0ade651e67e06e954cd46a6f6.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">G. P. Juniors</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoBoca.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Boca Juniors AMARILLO</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Las Gredas 2424, Córdoba - Complejo Don Adolfo</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoUniversitario.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Universitario ROJO</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/98/aa/9d/98aa9dc82fac2d73df8df8f4a1140e00.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Lasallano BLANCO</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="contenedorPartidos" id="fecha3">
+                <h2>FECHA N°3</h2>
+                <div class="partidos">
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Chancay 510, Córdoba - Escuela de fútbol Talleres Botánico</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoTalleres.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Talleres Botánico</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoUniversitario.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Universitario BLANCO</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Sol de Mayo 1242, X5000 Córdoba - Escuela de fútbol Boca de Córdoba</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoBoca.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Boca Juniors AMARILLO</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/98/aa/9d/98aa9dc82fac2d73df8df8f4a1140e00.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Lasallano AZUL</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Av. Padre Antonio María Claret 5601, Córdoba - Escuela de fútbol Lasallano</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/98/aa/9d/98aa9dc82fac2d73df8df8f4a1140e00.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Lasallano BLANCO</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/07/a4/6f/07a46fb0ade651e67e06e954cd46a6f6.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">G. P. Juniors</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Sol de Mayo 1242, Córdoba - Escuela de fútbol Boca de Córdoba</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoBoca.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Boca Juniors AZUL</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoUniversitario.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Universitario ROJO</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="contenedorPartidos" id="fecha4">
+                <h2>FECHA N°4</h2>
+                <div class="partidos">
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Sol de Mayo 1242, Córdoba - Escuela de fútbol Boca de Córdoba</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoBoca.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Boca Juniors AZUL</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/98/aa/9d/98aa9dc82fac2d73df8df8f4a1140e00.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Lasallano BLANCO</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Hipólito Vieytes 550, Córdoba - Escuela de fútbol Universitario</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoUniversitario.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Universitario ROJO</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoTalleres.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Talleres Botánico</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Hipólito Vieytes 550, Córdoba - Escuela de fútbol Universitario</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoUniversitario.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Universitario BLANCO</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoBoca.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Boca Juniors AMARILLO</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Av. Padre Antonio María Claret 5601, Córdoba - Escuela de fútbol Lasallano</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/98/aa/9d/98aa9dc82fac2d73df8df8f4a1140e00.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Lasallano AZUL</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/07/a4/6f/07a46fb0ade651e67e06e954cd46a6f6.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">G. P. Juniors</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="contenedorPartidos" id="fecha5">
+                <h2>FECHA N°5</h2>
+                <div class="partidos">
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 -Av. Padre Antonio María Claret 5601, Córdoba - Escuela de fútbol Lasallano</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/98/aa/9d/98aa9dc82fac2d73df8df8f4a1140e00.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Lasallano BLANCO</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/98/aa/9d/98aa9dc82fac2d73df8df8f4a1140e00.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Lasallano AZUL</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Las Gredas 2424, Córdoba - Complejo Don Adolfo</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/07/a4/6f/07a46fb0ade651e67e06e954cd46a6f6.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">G. P. Juniors</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoUniversitario.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Universitario BLANCO</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Sol de Mayo 1242, Córdoba - Escuela de fútbol Boca de Córdoba</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoBoca.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Boca Juniors AMARILLO</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoUniversitario.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Universitario ROJO</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Chancay 510, Córdoba - Escuela de fútbol Talleres Botánico</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoTalleres.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Talleres Botánico</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoBoca.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Boca Juniors AZUL</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="contenedorPartidos" id="fecha6">
+                <h2>FECHA N°6</h2>
+                <div class="partidos">
+                    <h3>MEGA "A"</h3>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Sol de Mayo 1242, Córdoba - Escuela de fútbol Boca de Córdoba</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoUniversitario.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Universitario BLANCO</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoBoca.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Boca Juniors AMARILLO</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Sol de Mayo 1242, Córdoba - Escuela de fútbol Boca de Córdoba</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/98/aa/9d/98aa9dc82fac2d73df8df8f4a1140e00.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Lasallano AZUL</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/98/aa/9d/98aa9dc82fac2d73df8df8f4a1140e00.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Lasallano BLANCO</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="partidos">
+                    <h3>MEGA "B"</h3>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Las Gredas 2424, Córdoba - Complejo Don Adolfo</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoBoca.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Boca Juniors AZUL</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/07/a4/6f/07a46fb0ade651e67e06e954cd46a6f6.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">G. P. Juniors</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Las Gredas 2424, Córdoba - Complejo Don Adolfo</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoTalleres.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Talleres Botánico</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoUniversitario.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Universitario ROJO</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="contenedorPartidos" id="fecha7">
+                <h2>FECHA N°7</h2>
+                <div class="partidos">
+                    <h3>MEGA "A"</h3>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Sol de Mayo 1242, Córdoba - Escuela de fútbol Boca de Córdoba</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoUniversitario.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Universitario BLANCO</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/07/a4/6f/07a46fb0ade651e67e06e954cd46a6f6.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">G. P. Juniors</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Sol de Mayo 1242, Córdoba - Escuela de fútbol Boca de Córdoba</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/98/aa/9d/98aa9dc82fac2d73df8df8f4a1140e00.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Lasallano AZUL</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoUniversitario.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Universitario ROJO</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="partidos">
+                    <h3>MEGA "B"</h3>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Las Gredas 2424, Córdoba - Complejo Don Adolfo</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoBoca.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Boca Juniors AZUL</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoBoca.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Boca Juniors AMARILLO</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="partido">
+                        <p class="datosPartido">13/04/2024 - Las Gredas 2424, Córdoba - Complejo Don Adolfo</p>
+                        <div class="infoPartido">
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="../assets/logoTalleres.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Talleres Botánico</p>
+                            </div>
+                            <div class="separadorEquipos">
+                                <p class="resultado"> 0 </p>
+                                <p class="separadorResultado"> - </p>
+                                <p class="resultado"> 0 </p>
+                            </div>
+                            <div class="equipo">
+                                <div class="contenedorEscudo">
+                                    <img class="escudoEquipo" src="https://i.pinimg.com/originals/98/aa/9d/98aa9dc82fac2d73df8df8f4a1140e00.png" alt="">
+                                </div>
+                                <p class="nombreEquipo">Lasallano BLANCO</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>    
+        </div>
+    </main>
+    <footer>
+        <p>hola</p>
+    </footer>
+    <script src="../js/fixture.js"></script>
+</body>
+</html>
