@@ -263,14 +263,14 @@ const gpJuniors6 = {
 };
 const lasallanoAzul6 = {
     nombre: 'Lasallano Azul', id: '6',
-    pj: 2,
-    pg: 2, pe: 0, pp: 0,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
     gf: 0, gc: 0,
 };
 const bocaJrsAmarillo6 = {
     nombre: 'Boca Juniors Amarillo', id: '6',
-    pj: 1,
-    pg: 0, pe: 0, pp: 1,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
     gf: 0, gc: 0,
 };
 const talleresBotanico6 = {
@@ -281,8 +281,8 @@ const talleresBotanico6 = {
 };
 const lasallanoBlanco6 = {
     nombre: 'Lasallano Blanco', id: '6',
-    pj: 1,
-    pg: 1, pe: 0, pp: 0,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
     gf: 0, gc: 0,
 };
 const bocaJrsAzul6 = {
