@@ -1,9 +1,10 @@
 .contenedorSelector{
     display: flex;
     justify-content: center;
+    margin: 10px;
 }
 
-#selectorFecha{
+.selector{
     width: 90vw;
     max-width: 1000px;
     height: 40px;
@@ -46,10 +47,11 @@ h3{
     transition: 1s;
 }
 
-.datosPartido{
+.contenedorDatos p{
     color: rgb(75, 75, 75);
     font-size: 0.75em;
 }
+
 .infoPartido{
     display: flex;
     justify-content: center;
