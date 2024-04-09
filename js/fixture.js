@@ -12,8 +12,6 @@ const selectorCategoria = document.getElementById('selectorCategoria');
 
 const contenidos = document.querySelectorAll(".contenedorDatos");
 
-cambiarValores(contenidos);
-
 selectorCategoria.addEventListener('change', function(){
     cambiarValores(contenidos);
 })
@@ -45,6 +43,8 @@ function cambiarValores(contenedorDatos) {
 };
 
 document.addEventListener('DOMContentLoaded', function(){
+    cambiarValores(contenidos);
+
     fecha1.style.display = 'block';
     fecha2.style.display = 'none';
     fecha3.style.display = 'none';
@@ -63,8 +63,9 @@ selectorFecha.addEventListener('change', function() {
     fecha5.style.display = 'none';
     fecha6.style.display = 'none';
     fecha7.style.display = 'none';
-
-    const opcionSeleccionada = selector.value;
+    
+    const opcionSeleccionada = selectorFecha.value;
     document.getElementById(opcionSeleccionada).style.display = 'block';
+    cambiarValores(contenidos);
 });
 
