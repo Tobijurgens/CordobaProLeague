@@ -19,7 +19,7 @@ const lasallanoAzul1 = {
     gf: 0, gc: 0,
 };
 const bocaJrsAmarillo1 = {
-    nombre: 'Boca Juniors Amarillo', id: '1',
+    nombre: 'Boca de Córdoba Amarillo', id: '1',
     pj: 0,
     pg: 0, pe: 0, pp: 0,
     gf: 0, gc: 0,
@@ -37,7 +37,7 @@ const lasallanoBlanco1 = {
     gf: 0, gc: 0,
 };
 const bocaJrsAzul1 = {
-    nombre: 'Boca Juniors Azul', id: '1',
+    nombre: 'Boca de Córdoba Azul', id: '1',
     pj: 0,
     pg: 0, pe: 0, pp: 0,
     gf: 0, gc: 0,
@@ -68,7 +68,7 @@ const lasallanoAzul2 = {
     gf: 0, gc: 0,
 };
 const bocaJrsAmarillo2 = {
-    nombre: 'Boca Juniors Amarillo', id: '2',
+    nombre: 'Boca de Córdoba Amarillo', id: '2',
     pj: 0,
     pg: 0, pe: 0, pp: 0,
     gf: 0, gc: 0,
@@ -86,7 +86,7 @@ const lasallanoBlanco2 = {
     gf: 0, gc: 0,
 };
 const bocaJrsAzul2 = {
-    nombre: 'Boca Juniors Azul', id: '2',
+    nombre: 'Boca de Córdoba Azul', id: '2',
     pj: 0,
     pg: 0, pe: 0, pp: 0,
     gf: 0, gc: 0,
@@ -118,7 +118,7 @@ const lasallanoAzul3 = {
     gf: 0, gc: 0,
 };
 const bocaJrsAmarillo3 = {
-    nombre: 'Boca Juniors Amarillo', id: '3',
+    nombre: 'Boca de Córdoba Amarillo', id: '3',
     pj: 0,
     pg: 0, pe: 0, pp: 0,
     gf: 0, gc: 0,
@@ -136,7 +136,7 @@ const lasallanoBlanco3 = {
     gf: 0, gc: 0,
 };
 const bocaJrsAzul3 = {
-    nombre: 'Boca Juniors Azul', id: '3',
+    nombre: 'Boca de Córdoba Azul', id: '3',
     pj: 0,
     pg: 0, pe: 0, pp: 0,
     gf: 0, gc: 0,
@@ -168,7 +168,7 @@ const lasallanoAzul4 = {
     gf: 0, gc: 0,
 };
 const bocaJrsAmarillo4 = {
-    nombre: 'Boca Juniors Amarillo', id: '4',
+    nombre: 'Boca de Córdoba Amarillo', id: '4',
     pj: 0,
     pg: 0, pe: 0, pp: 0,
     gf: 0, gc: 0,
@@ -186,7 +186,7 @@ const lasallanoBlanco4 = {
     gf: 0, gc: 0,
 };
 const bocaJrsAzul4 = {
-    nombre: 'Boca Juniors Azul', id: '4',
+    nombre: 'Boca de Córdoba Azul', id: '4',
     pj: 0,
     pg: 0, pe: 0, pp: 0,
     gf: 0, gc: 0,
@@ -218,7 +218,7 @@ const lasallanoAzul5 = {
     gf: 0, gc: 0,
 };
 const bocaJrsAmarillo5 = {
-    nombre: 'Boca Juniors Amarillo', id: '5',
+    nombre: 'Boca de Córdoba Amarillo', id: '5',
     pj: 0,
     pg: 0, pe: 0, pp: 0,
     gf: 0, gc: 0,
@@ -236,7 +236,7 @@ const lasallanoBlanco5 = {
     gf: 0, gc: 0,
 };
 const bocaJrsAzul5 = {
-    nombre: 'Boca Juniors Azul', id: '5',
+    nombre: 'Boca de Córdoba Azul', id: '5',
     pj: 0,
     pg: 0, pe: 0, pp: 0,
     gf: 0, gc: 0,
@@ -268,7 +268,7 @@ const lasallanoAzul6 = {
     gf: 0, gc: 0,
 };
 const bocaJrsAmarillo6 = {
-    nombre: 'Boca Juniors Amarillo', id: '6',
+    nombre: 'Boca de Córdoba Amarillo', id: '6',
     pj: 0,
     pg: 0, pe: 0, pp: 0,
     gf: 0, gc: 0,
@@ -286,7 +286,7 @@ const lasallanoBlanco6 = {
     gf: 0, gc: 0,
 };
 const bocaJrsAzul6 = {
-    nombre: 'Boca Juniors Azul', id: '6',
+    nombre: 'Boca de Córdoba Azul', id: '6',
     pj: 0,
     pg: 0, pe: 0, pp: 0,
     gf: 0, gc: 0,
