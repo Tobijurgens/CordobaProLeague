@@ -1,6 +1,7 @@
 main{
     margin-top: 16vh;
     background: #E8E2C8;
+    padding-bottom: 15vh;
 }
 footer{
     margin: 0;
@@ -70,4 +71,46 @@ footer{
 
 .enlaceAccesorios{
     background-image: url(../assets/accesorios.webp);
+}
+
+/* .contenedorImagenes{
+    display: flex;
+    
+}
+.imgnes{
+    width: auto;
+    height: 400px;
+} */
+.slider {
+    width: 100vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slide-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(590px * 16);
+}
+
+.slider .slide {
+    width: auto;
+}
+
+.slider .slide img {
+    height: 400px;
+    width: auto;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-590px * 8));
+        transform: translateX(calc(-590px * 8));
+    }
 }
