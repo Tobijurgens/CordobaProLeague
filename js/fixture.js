@@ -12,8 +12,13 @@ const selectorCategoria = document.getElementById('selectorCategoria');
 
 const contenidos = document.querySelectorAll(".contenedorDatos");
 
+const resultados = document.querySelectorAll(".separadorEquipos");
+
 selectorCategoria.addEventListener('change', function(){
     cambiarValores(contenidos);
+
+    const catSeleccionada = selectorCategoria.value;
+    cambiarResultados(catSeleccionada);
 })
 
 function cambiarValores(contenedorDatos) {
@@ -42,6 +47,18 @@ function cambiarValores(contenedorDatos) {
     });
 };
 
+function cambiarResultados(categoria) {
+    resultados.forEach(resultado => {
+        resultado.style.display = 'none';
+    })
+
+    const resultadosSeleccionados = document.querySelectorAll(`[data-id="${categoria}"]`);
+
+    resultadosSeleccionados.forEach(resultadoPartido => {
+        resultadoPartido.style.display = 'flex';
+    })
+};
+
 document.addEventListener('DOMContentLoaded', function(){
     cambiarValores(contenidos);
 
@@ -52,6 +69,10 @@ document.addEventListener('DOMContentLoaded', function(){
     fecha5.style.display = 'none';
     fecha6.style.display = 'none';
     fecha7.style.display = 'none';
+
+    const catSeleccionada = selectorCategoria.value;
+    
+    cambiarResultados(catSeleccionada);
 })
 
 
@@ -65,7 +86,12 @@ selectorFecha.addEventListener('change', function() {
     fecha7.style.display = 'none';
     
     const opcionSeleccionada = selectorFecha.value;
-    document.getElementById(opcionSeleccionada).style.display = 'block';
+    const catSeleccionada = selectorCategoria.value;
+    
+    cambiarResultados(catSeleccionada);
+
+    document.getElementById(opcionSeleccionada).style.display = 'flex';
     cambiarValores(contenidos);
 });
+
 
