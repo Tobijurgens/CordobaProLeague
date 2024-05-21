@@ -52,8 +52,8 @@ const universitarioBlanco1 = {
 const universitarioRojo2 = {
     nombre: 'Universitario Rojo', id: '2',
     pj: 3,
-    pg: 1, pe: 1, pp: 1,
-    gf: 3, gc: 7,
+    pg: 0, pe: 1, pp: 2,
+    gf: 3, gc: 8,
 };
 const gpJuniors2 = {
     nombre: 'G. P. Juniors', id: '2',
@@ -70,8 +70,8 @@ const lasallanoAzul2 = {
 const bocaJrsAmarillo2 = {
     nombre: 'Boca de Córdoba Amarillo', id: '2',
     pj: 3,
-    pg: 1, pe: 2, pp: 0,
-    gf: 4, gc: 2,
+    pg: 2, pe: 1, pp: 0,
+    gf: 5, gc: 2,
 };
 const talleresBotanico2 = {
     nombre: 'Talleres Botánico', id: '2',
