@@ -36,7 +36,15 @@ table tr:nth-child(odd){
 table tr:nth-child(even){
     background-color: white;
 }
-
+table tr:first-child{
+    background-color: rgba(13, 175, 13, 0.705);
+}
+table tr:nth-child(2){
+    background-color: rgba(219, 199, 19, 0.651);
+}
+table tr:nth-child(3){
+    background-color: rgba(104, 71, 9, 0.747);
+}
 .nombreEquipo{
     text-align: left;
     padding: 0 10px;
