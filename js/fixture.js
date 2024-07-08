@@ -7,6 +7,8 @@ const fecha4 = document.getElementById('fecha4');
 const fecha5 = document.getElementById('fecha5');
 const fecha6 = document.getElementById('fecha6');
 const fecha7 = document.getElementById('fecha7');
+const fecha8 = document.getElementById('fecha8');
+const fecha9 = document.getElementById('fecha9');
 
 const selectorCategoria = document.getElementById('selectorCategoria');
 
@@ -69,6 +71,8 @@ document.addEventListener('DOMContentLoaded', function(){
     fecha5.style.display = 'none';
     fecha6.style.display = 'none';
     fecha7.style.display = 'none';
+    fecha8.style.display = 'none';
+    fecha9.style.display = 'none';
 
     const catSeleccionada = selectorCategoria.value;
     
@@ -84,6 +88,8 @@ selectorFecha.addEventListener('change', function() {
     fecha5.style.display = 'none';
     fecha6.style.display = 'none';
     fecha7.style.display = 'none';
+    fecha8.style.display = 'none';
+    fecha9.style.display = 'none';
     
     const opcionSeleccionada = selectorFecha.value;
     const catSeleccionada = selectorCategoria.value;
