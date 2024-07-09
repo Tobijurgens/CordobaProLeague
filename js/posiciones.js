@@ -176,8 +176,8 @@ const lasallanoAzul4 = {
 const bocaJrsAmarillo4 = {
     nombre: 'Boca de Córdoba Amarillo', id: '4',
     pj: 9,
-    pg: 5, pe: 1, pp: 3,
-    gf: 23, gc: 16,
+    pg: 6, pe: 1, pp: 2,
+    gf: 26, gc: 13,
 };
 const talleresBotanico4 = {
     nombre: 'Talleres Botánico', id: '4',
@@ -188,8 +188,8 @@ const talleresBotanico4 = {
 const lasallanoBlanco4 = {
     nombre: 'Lasallano Blanco', id: '4',
     pj: 9,
-    pg: 4, pe: 0, pp: 5,
-    gf: 18, gc: 14,
+    pg: 3, pe: 0, pp: 6,
+    gf: 15, gc: 17,
 };
 const bocaJrsAzul4 = {
     nombre: 'Boca de Córdoba Azul', id: '4',
