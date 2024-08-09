@@ -2,258 +2,258 @@ const clubes = []
 
 const universitarioRojo1 = {
     nombre: 'Universitario Rojo', id: '1',
-    pj: 9,
-    pg: 6, pe: 2, pp: 1,
-    gf: 35, gc: 5,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const gpJuniors1 = {
     nombre: 'G. P. Juniors', id: '1',
-    pj: 9,
-    pg: 3, pe: 2, pp: 4,
-    gf: 7, gc: 15,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const lasallanoAzul1 = {
     nombre: 'Lasallano Azul', id: '1',
-    pj: 9,
-    pg: 1, pe: 5, pp: 3,
-    gf: 13, gc: 19,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const bocaJrsAmarillo1 = {
     nombre: 'Boca de Córdoba Amarillo', id: '1',
-    pj: 9,
-    pg: 3, pe: 3, pp: 3,
-    gf: 13, gc: 17,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const talleresBotanico1 = {
     nombre: 'Talleres Botánico', id: '1',
-    pj: 9,
-    pg: 5, pe: 1, pp: 3,
-    gf: 17, gc: 8,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const lasallanoBlanco1 = {
     nombre: 'Lasallano Blanco', id: '1',
-    pj: 9,
-    pg: 0, pe: 2, pp: 7,
-    gf: 10, gc: 32,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const bocaJrsAzul1 = {
     nombre: 'Boca de Córdoba Azul', id: '1',
-    pj: 9,
-    pg: 2, pe: 4, pp: 3,
-    gf: 8, gc: 16,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const universitarioBlanco1 = {
     nombre: 'Universitario Blanco', id: '1',
-    pj: 9,
-    pg: 5, pe: 3, pp: 1,
-    gf: 16, gc: 7,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 
 /* ********************************************************************************************************** */
 
 const universitarioRojo2 = {
     nombre: 'Universitario Rojo', id: '2',
-    pj: 9,
-    pg: 2, pe: 4, pp: 3,
-    gf: 8, gc: 11,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const gpJuniors2 = {
     nombre: 'G. P. Juniors', id: '2',
-    pj: 9,
-    pg: 5, pe: 3, pp: 1,
-    gf: 32, gc: 16,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const lasallanoAzul2 = {
     nombre: 'Lasallano Azul', id: '2',
-    pj: 9,
-    pg: 3, pe: 2, pp: 4,
-    gf: 14, gc: 22,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const bocaJrsAmarillo2 = {
     nombre: 'Boca de Córdoba Amarillo', id: '2',
-    pj: 9,
-    pg: 6, pe: 2, pp: 1,
-    gf: 20, gc: 5,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const talleresBotanico2 = {
     nombre: 'Talleres Botánico', id: '2',
-    pj: 9,
-    pg: 3, pe: 0, pp: 6,
-    gf: 7, gc: 13,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const lasallanoBlanco2 = {
     nombre: 'Lasallano Blanco', id: '2',
-    pj: 9,
-    pg: 0, pe: 2, pp: 7,
-    gf: 9, gc: 25,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const bocaJrsAzul2 = {
     nombre: 'Boca de Córdoba Azul', id: '2',
-    pj: 9,
-    pg: 6, pe: 0, pp: 3,
-    gf: 26, gc: 20,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const universitarioBlanco2 = {
     nombre: 'Universitario Blanco', id: '2',
-    pj: 9,
-    pg: 2, pe: 4, pp: 3,
-    gf: 15, gc: 19,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 
 /* ********************************************************************************************************** */
 
 const universitarioRojo3 = {
     nombre: 'Universitario Rojo', id: '3',
-    pj: 9,
-    pg: 3, pe: 3, pp: 3,
-    gf: 10, gc: 10,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 
 const gpJuniors3 = {
     nombre: 'G. P. Juniors', id: '3',
-    pj: 9,
-    pg: 4, pe: 1, pp: 4,
-    gf: 13, gc: 14,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const lasallanoAzul3 = {
     nombre: 'Lasallano Azul', id: '3',
-    pj: 9,
-    pg: 5, pe: 1, pp: 3,
-    gf: 20, gc: 10,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const bocaJrsAmarillo3 = {
     nombre: 'Boca de Córdoba Amarillo', id: '3',
-    pj: 9,
-    pg: 4, pe: 1, pp: 4,
-    gf: 15, gc: 13,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const talleresBotanico3 = {
     nombre: 'Talleres Botánico', id: '3',
-    pj: 9,
-    pg: 1, pe: 3, pp: 5,
-    gf: 4, gc: 17,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const lasallanoBlanco3 = {
     nombre: 'Lasallano Blanco', id: '3',
-    pj: 9,
-    pg: 7, pe: 1, pp: 1,
-    gf: 14, gc: 4,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const bocaJrsAzul3 = {
     nombre: 'Boca de Córdoba Azul', id: '3',
-    pj: 9,
-    pg: 2, pe: 3, pp: 4,
-    gf: 8, gc: 11,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const universitarioBlanco3 = {
     nombre: 'Universitario Blanco', id: '3',
-    pj: 9,
-    pg: 3, pe: 1, pp: 5,
-    gf: 10, gc: 15,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 
 /* ********************************************************************************************************** */
 
 const universitarioRojo4 = {
     nombre: 'Universitario Rojo', id: '4',
-    pj: 9,
-    pg: 2, pe: 0, pp: 7,
-    gf: 4, gc: 19,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 
 const gpJuniors4 = {
     nombre: 'G. P. Juniors', id: '4',
-    pj: 9,
-    pg: 6, pe: 2, pp: 1,
-    gf: 13, gc: 2,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const lasallanoAzul4 = {
     nombre: 'Lasallano Azul', id: '4',
-    pj: 9,
-    pg: 4, pe: 1, pp: 4,
-    gf: 27, gc: 25,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const bocaJrsAmarillo4 = {
     nombre: 'Boca de Córdoba Amarillo', id: '4',
-    pj: 9,
-    pg: 6, pe: 1, pp: 2,
-    gf: 26, gc: 13,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const talleresBotanico4 = {
     nombre: 'Talleres Botánico', id: '4',
-    pj: 9,
-    pg: 4, pe: 2, pp: 3,
-    gf: 14, gc: 17,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const lasallanoBlanco4 = {
     nombre: 'Lasallano Blanco', id: '4',
-    pj: 9,
-    pg: 3, pe: 0, pp: 6,
-    gf: 15, gc: 17,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const bocaJrsAzul4 = {
     nombre: 'Boca de Córdoba Azul', id: '4',
-    pj: 9,
-    pg: 1, pe: 1, pp: 7,
-    gf: 12, gc: 24,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const universitarioBlanco4 = {
     nombre: 'Universitario Blanco', id: '4',
-    pj: 9,
-    pg: 6, pe: 1, pp: 2,
-    gf: 22, gc: 16,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 
 /* ********************************************************************************************************** */
 
 const universitarioRojo5 = {
     nombre: 'Universitario Rojo', id: '5',
-    pj: 9,
-    pg: 5, pe: 2, pp: 2,
-    gf: 19, gc: 16,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 
 const gpJuniors5 = {
     nombre: 'G. P. Juniors', id: '5',
-    pj: 9,
-    pg: 4, pe: 2, pp: 3,
-    gf: 13, gc: 17,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const lasallanoAzul5 = {
     nombre: 'Lasallano Azul', id: '5',
-    pj: 9,
-    pg: 4, pe: 1, pp: 4,
-    gf: 23, gc: 24,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const bocaJrsAmarillo5 = {
     nombre: 'Boca de Córdoba Amarillo', id: '5',
-    pj: 9,
-    pg: 0, pe: 0, pp: 9,
-    gf: 4, gc: 33,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const talleresBotanico5 = {
     nombre: 'Talleres Botánico', id: '5',
-    pj: 9,
-    pg: 1, pe: 0, pp: 8,
-    gf: 6, gc: 30,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const lasallanoBlanco5 = {
     nombre: 'Lasallano Blanco', id: '5',
-    pj: 9,
-    pg: 8, pe: 0, pp: 1,
-    gf: 32, gc: 9,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const bocaJrsAzul5 = {
     nombre: 'Boca de Córdoba Azul', id: '5',
-    pj: 9,
-    pg: 9, pe: 0, pp: 0,
-    gf: 50, gc: 9,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 const universitarioBlanco5 = {
     nombre: 'Universitario Blanco', id: '5',
-    pj: 9,
-    pg: 2, pe: 1, pp: 6,
-    gf: 14, gc: 23,
+    pj: 0,
+    pg: 0, pe: 0, pp: 0,
+    gf: 0, gc: 0,
 };
 
 /* ********************************************************************************************************** */
