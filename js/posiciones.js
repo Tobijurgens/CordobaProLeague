@@ -197,18 +197,18 @@ const bocaJrsAmarillo5 = {
 };
 const talleresBotanico5 = {
     nombre: 'Talleres Botánico', id: '5',
-    pg: 1, pe: 0, pp: 4,
-    gf: 6, gc: 12,
+    pg: 1, pe: 0, pp: 5,
+    gf: 1, gc: 15,
 };
 const lasallanoBlanco5 = {
     nombre: 'Lasallano Blanco', id: '5',
-    pg: 3, pe: 0, pp: 2,
-    gf: 8, gc: 7,
+    pg: 3, pe: 0, pp: 3,
+    gf: 9, gc: 10,
 };
 const bocaJrsAzul5 = {
     nombre: 'Boca de Córdoba Azul', id: '5',
-    pg: 2, pe: 1, pp: 1,
-    gf: 7, gc: 4,
+    pg: 4, pe: 1, pp: 1,
+    gf: 13, gc: 6,
 };
 const universitarioBlanco5 = {
     nombre: 'Universitario Blanco', id: '5',
